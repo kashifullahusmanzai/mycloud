@@ -1,0 +1,47 @@
+.A{
+    background-color: red;
+    height: 10PX;
+    width: 10PX;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+#exo3{
+    background-color:lightgray;
+    margin-left:2%;
+    text-align: left;
+}
+#wrapper > :last-child {
+  display: none;
+}
+#wrapper.switched > :last-child {
+  display: block;
+}
+#wrapper.switched > :first-child {
+  display: none;
+}
+/* .wrapper{
+background-color: green;
+height: 100px;
+width: 100px;
+} */
+/* .first{
+  float: left;
+  background-color: hotpink;
+  margin-left: 40%;
+}
+.second{
+  float: right;
+  background-color: hotpink;
+  margin-right: 40%;
+} 
+#wrapper{
+  background-color:green;
+  display: flex;
+  justify-content: center;
+} */
+
+
+  
