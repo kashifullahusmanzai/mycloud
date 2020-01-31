@@ -13,3 +13,14 @@ inputs.addEventListener('keypress',()=>{
         work()
     }
 })
+
+
+
+let page3=document.getElementById('exo-3')
+let exo3=document.getElementById('exo3')
+
+let third=()=>{
+exo3.classList.remove('d-none')
+}
+
+page3.addEventListener('click',third)

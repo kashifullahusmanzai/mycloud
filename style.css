@@ -13,35 +13,39 @@ img{
     margin-left:2%;
     text-align: left;
 }
-#wrapper > :last-child {
-  display: none;
+#Div1{
+  background-color: darkgoldenrod;
+  height: 100px;
+  width: 90%;
 }
-#wrapper.switched > :last-child {
-  display: block;
-}
-#wrapper.switched > :first-child {
-  display: none;
-}
-/* .wrapper{
-background-color: green;
-height: 100px;
-width: 100px;
-} */
-/* .first{
-  float: left;
-  background-color: hotpink;
-  margin-left: 40%;
-}
-.second{
-  float: right;
-  background-color: hotpink;
-  margin-right: 40%;
-} 
-#wrapper{
-  background-color:green;
-  display: flex;
-  justify-content: center;
-} */
 
+#Div2{
+  background-color: darkgoldenrod;
+  height: 100px;
+  width: 90%;
+}
+#first{
+  background-color: darkorange;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+}
+#second{
+  background-color: darkorange;
+  margin-right: 30%;
+  width: 70px;
+  height: 70px;
+}
+#Button1{
+  width: 9%;
+  margin-right: 5%;
+  background-color: yellow;
 
+}
+#Button2{
+  width: 10%;
+  margin-right: 5%;
+  background-color: green;
   
+}
+

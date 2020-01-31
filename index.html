@@ -15,13 +15,13 @@
     <a id="exo-1" class="nav-link active" href="">Exo 1</a>
   </li>
   <li class="nav-item">
-    <a id="exo-3" class="nav-link" href="#">Exo 2</a>
+    <a id="exo-2" class="nav-link" href="#">Exo 2</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Exo 3</a>
+    <a id="exo-3" class="nav-link" href="#">Exo 3</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Exo 4</a>
+    <a id="exo-4" class="nav-link" href="#">Exo 4</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Exo 5</a>
@@ -33,26 +33,40 @@
 
 
 
-<div id="exo1" style="display: none;">
-    <h1 class="text bg-danger">Hllo</h1>
+<div id="exo1" class="d-none">
+    <h1 class="text bg-danger">Hello</h1>
     <button id="changeColor">Go</button>
-    <br>
+
 </div>
 
 
-<div id="exo3" style="display: none;">
+<div id="exo3" class="d-none">
    <h1>HELLO, <span id="nom"></span></h1>
    <input id="input" type="text">
    <button id="work">go</button>
 </div>
 
-
-<div id="wrapper">
-  <div class="first">Div 1</div>
-  <div class="second">Div 2</div>
+<div id="container" class="d-none">
+  <div class="container">
+  <div class="row">
+    <div class="col">
+     <div id="Div1" class="d-flex justify-content-center align-items-center"><span id="first">1 of 2</span> </div>
+    </div>
+    <div class="col">
+      <div id="Div2" class="d-flex justify-content-center align-items-center"> </div>
+    </div>
+  </div>
+   <div class="d-flex justify-content-center align-items-center m-5 " >
+    <button id="Button1" class=>Change place</button>
+  </div>
+  <div class="d-flex justify-content-center align-items-center ">
+    <button id="Button2">numer of count <span id="displayCount">0</span></button>
+  </div>
+  </div>
+ 
 </div>
-<br>
-<input id="Button1" type="button" value="Click me" />
+
+
 
     <script src="main.js" type="module"></script>
 </body>
